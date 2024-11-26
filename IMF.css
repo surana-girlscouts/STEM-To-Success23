@@ -1,0 +1,39 @@
+/* Navigation Bar */
+
+/* Page Layout */
+body {
+  margin: 60px 30px 60px 30px;
+  padding: 20px;
+  margin-block-end: 200px;
+  background-color: lightblue;
+}
+/* Headings */
+h2 {
+  color: #000040;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Chonburi', cursive;
+}
+h3 {
+  color: #000040;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Chonburi', cursive;
+}
+.text {
+  color: #000040;
+  font-size: 17px;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.75;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.views {
+  width: 20%;
+  height: 30%;
+}
+.culture {
+  width: 15%;
+  height: 30%;
+}
+
