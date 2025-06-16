@@ -1,14 +1,26 @@
-entrypoint="index.html"
-hidden=[".config"]
-modules = ["web:v2-20230623-0b7a606"]
+entrypoint = "index.html"
+modules = ["nodejs-20", "web"]
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_11"
+packages = ["static-web-server"]
 
 [deployment]
 publicDir = "/"
 deploymentTarget = "static"
 
-[auth]
-pageEnabled = false
-buttonEnabled = false
+[workflows]
+runButton = "Serve static"
+
+[[workflows.workflow]]
+name = "Serve static"
+mode = "parallel"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m http.server 80"
+waitForPort = 80
+
+[[ports]]
+localPort = 80
+externalPort = 80
