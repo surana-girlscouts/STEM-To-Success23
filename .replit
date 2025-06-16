@@ -18,7 +18,7 @@ mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 -m http.server 80"
+args = "static-web-server --port 80 --root . --directory-listing false"
 waitForPort = 80
 
 [[ports]]
