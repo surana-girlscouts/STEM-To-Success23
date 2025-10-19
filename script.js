@@ -1,7 +1,7 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-var button = $(".views");
+var button = $(".csc");
 var header = $(".two");
 button.on("click", doSomethingone);
 
@@ -9,7 +9,7 @@ function doSomethingone() {
    header.removeClass("hidden");
 }
 
-var buttontwo = $(".culture");
+var buttontwo = $(".csi");
 var headertwo = $(".three");
 buttontwo.on("click", doSomethingtwo);
 
@@ -17,14 +17,14 @@ function doSomethingtwo() {
    headertwo.removeClass("hidden");
 }
 
-var buttonthree = $(".views");
+var buttonthree = $(".csc");
 var headerthree = $(".four");
 buttonthree.on("click", doSomethingthree);
 
 function doSomethingthree() {
    headerthree.removeClass("hidden");
 }
-var buttonfour = $(".history");
+var buttonfour = $(".polartwo");
 var headerfour = $(".five");
 buttonfour.on("click", doSomethingfour);
 
@@ -32,7 +32,7 @@ function doSomethingfour() {
    headerfour.removeClass("hidden");
 }
 
-var buttonfive = $(".history");
+var buttonfive = $(".polartwo");
 var headerfive = $(".seven");
 buttonfive.on("click", doSomethingfive);
 
@@ -40,7 +40,7 @@ function doSomethingfive() {
    headerfive.removeClass("hidden");
 }
 
-var buttonsix = $(".water");
+var buttonsix = $(".polarone");
 var headersix = $(".six");
 buttonsix.on("click", doSomethingsix);
 
