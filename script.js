@@ -48,7 +48,7 @@ function doSomethingsix() {
    headersix.removeClass("hidden");
 }
 
-var buttonseven = $(".warm");
+var buttonseven = $(".scli");
 var headerseven = $(".nine");
 buttonseven.on("click", doSomethingseven);
 
@@ -56,7 +56,7 @@ function doSomethingseven() {
    headerseven.removeClass("hidden");
 }
 
-var buttoneight = $(".cool");
+var buttoneight = $(".sclc");
 var headereight = $(".eight");
 buttoneight.on("click", doSomethingeight);
 
@@ -64,7 +64,7 @@ function doSomethingeight() {
    headereight.removeClass("hidden");
 }
 
-var buttonnine = $(".cool");
+var buttonnine = $(".sclc");
 var headernine = $(".ten");
 buttonnine.on("click", doSomethingnine);
 
